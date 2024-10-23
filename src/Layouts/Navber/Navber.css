@@ -1,7 +1,0 @@
-.navber-container{
-    display: flex;             /*.ให้เรียง*/
-    justify-content: center;  /*ให้อยู่ตรงกลาง*/
-    gap: 1rem;       /*ระยะห่าง*/
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
