@@ -1,0 +1,48 @@
+
+#container{
+    margin: 10px auto;
+    width: fit-content;
+    border: 1px solid rgb(2, 0, 95);
+    border-radius: 5px;
+}
+
+#field{                    /*พื้นหลัง*/
+    /* variable */
+    height: 400px;
+    width: 600px;
+    
+    /* fixed */
+    border: 1px solid rgb(0, 0, 0);
+    margin: 10px ;
+    background-image: url(IMG/Field.jpg);
+    background-position: center;
+    border-radius: 5px;
+}
+#control{
+    margin: 10px;
+    /* border: 1px solid rgb(62, 23, 178); */
+}
+
+#ball{
+    /* fixed */
+    border: 1px solid rgb(0, 0, 0);
+    
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    position: relative;
+    background-position: center;    /*ปรับรูปในลูกบอลให้อยูตรงกลาง*/
+    background-size: 120%;         /*ระยะขอบรูปในลูกบอล*/
+
+    /* variable */
+    height: 50px;                /*ขนาดลูกบอล*/
+    width:  50px;
+    transform: rotate(0deg);      /*หมุนภาพในลูกบอล*/
+    background-repeat: no-repeat;   /* ไม่ให้ภาพซ้ำ */
+}
+
+
+
+.conbox{
+    float: right;
+}
+

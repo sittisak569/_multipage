@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Itim&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900&display=swap');
+
+.boxALL{
+  border: 1px solid;
+  text-align: center;
+  width: 1020px;
+  height: 640px;
+  margin: 0px auto;    /*เลื่อมาตรงกลาง*/
+    
+  margin-bottom: 20px;
+  border-radius: 0.5rem;
+  background-color: rgb(59, 59, 59);
+}
+
+.box1 {
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 40px;
+  background-color: rgb(197, 197, 197);
+  border: 2px solid black;
+}
+
+.screen {
+  display: flex;
+  flex-flow: column nowrap;
+  background-color: rgb(240, 238, 238);
+  min-height: 50px;
+  padding: 10px;
+  font-size: 3px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  text-align: right;
+  border: 2px solid black;
+  margin-bottom: 10px;
+}
+
+.screen .previous {
+  font-size: 30px;
+  color: rgba(34, 34, 34, 0.75);
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.screen .current {
+  font-size: 50px;
+  color: black;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.calcu-row {
+  display: flex;
+  align-content: stretch;
+  justify-content: space-between;
+  margin: 0.8%;
+}
+
+.calcu-num {
+  background-color: rgb(240, 238, 238);
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 35px;
+  border: black solid 1px;
+  border-radius: 10%;
+  height: 70px;
+  flex-basis: 24.5%;
+}
+
+.calcu-num:hover {
+  background-color: rgb(168, 168, 168);
+}
+
+.calcu-num:active {
+  background-color: rgb(46, 46, 46);
+}
+
+.calcu-num:last-child {
+  background-color: rgb(173, 171, 255);
+}
+
+.calcu-num:last-child:hover {
+  background-color: rgb(131, 129, 248);
+}
+
+.calcu-num:last-child:active {
+  background-color: rgb(255, 255, 255);
+}
+
+.buttonC {
+  flex-basis: 49.7%;
+}

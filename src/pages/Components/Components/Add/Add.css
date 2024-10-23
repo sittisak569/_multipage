@@ -1,0 +1,47 @@
+.add-container{
+    /* border: 1px solid;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem; */
+    display: flex; /* ใช้ Flexbox */
+    justify-content: space-between; /* จัดวางกล่องให้มีระยะห่างเท่ากัน */
+    /* border: 1px solid; */
+    border-radius: 0.5rem;
+    /* padding: 0.8rem; */
+    margin-bottom: 0.5rem;
+    gap: 0.5rem; /* เพิ่มช่องว่างระหว่างกล่อง */
+    margin-left: 29px;
+
+}
+
+.add-title{
+    color: rgb(0, 0, 0);
+    
+}
+
+.add-variable{
+    display: grid;
+    grid-template-columns: 1fr 1fr; /*ปรับความเอียงของกล่องชิดซ้าย/ขวา */
+    gap: 0.5rem;
+}
+
+.add-display{
+    display: flex;
+    gap: 0.7rem;
+    justify-content: center;             /*ปรับให้อยู่กลาง*/
+}
+
+.add1-con{
+    border: 1px solid;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: rgb(255, 255, 255);        /*พื้นหลังกล่อง*/
+    width: 450px;
+}
+
+/* .add2-con{
+    border: 1px solid;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: rgb(255, 255, 255);       
+} */
